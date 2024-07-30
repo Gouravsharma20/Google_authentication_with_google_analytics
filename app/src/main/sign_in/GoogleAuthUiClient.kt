@@ -33,15 +33,3 @@ class GoogleAuthUiClient(
 
 }
 
-private fun buildSignInRequest(): BeginSignInRequest {
-    return BeginSignInRequest.builder()
-        .setGoogleIdTokenRequestOptions(
-            GoogleIdTokenRequestOptions.builder()
-                .setSupported(true)
-                .setFilterByAuthorizedAccounts(false)
-                .setServerClientId(context.getString(R.string.web_client_id)) // Ensure web_client_id is correctly defined in strings.xml
-                .build()
-        )
-        .setAutoSelectEnabled(true)
-        .build()
-}
