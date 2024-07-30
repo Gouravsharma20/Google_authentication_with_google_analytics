@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1047087897676",
+    "project_id": "sign-in-93c97",
+    "storage_bucket": "sign-in-93c97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047087897676:android:b59519f3ba8ff65151a8e9",
+        "android_client_info": {
+          "package_name": "wu.tutorials.google_sign_in"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsWVnL987j89ldxB7P2diz6ESwRCxh2Yo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
